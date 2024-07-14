@@ -1,1 +1,3 @@
 # Tweet-Emotion-Recognition-with-TensorFlow
+
+The dataset used in this project is the "Emotion" dataset from Hugging Face, which consists of tweets annotated with various emotion labels. Initially, the tweets were preprocessed through padding to ensure uniform input length and tokenizing to convert the text into numerical tokens. Following the preprocessing steps, an LSTM (Long Short-Term Memory) model was employed to classify the tweets based on their emotional content. This approach leverages the sequential nature of text data, allowing the LSTM model to effectively capture the contextual dependencies within the tweets for accurate emotion classification.
